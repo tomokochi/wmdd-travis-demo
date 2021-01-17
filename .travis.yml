@@ -2,9 +2,9 @@ language: node_js
 node_js:
  - "stable"
 cache: npm
-install:
- - npm install
 script:
+ - echo '****** Build Starts ******'
+ - npm install
  - npm test
  - npm run build
-
+ - mocha
