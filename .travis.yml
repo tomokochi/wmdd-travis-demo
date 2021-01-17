@@ -6,5 +6,4 @@ script:
  - echo '****** Build Starts ******'
  - npm install
  - npm test
- - npm run build
- - mocha
+
