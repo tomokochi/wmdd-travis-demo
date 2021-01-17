@@ -3,7 +3,7 @@ const supertest = require("supertest");
 var server = supertest.agent("http://localhost:5000");
 
 describe("Unit test sample", () => {
-    it("should retur home page", (done) => {
+    it("If you see this message, your test passed! Hooray!", (done) => {
         server
             .get("/")
             .expect("Content-type", /text/)
