@@ -6,6 +6,6 @@ install:
  - npm ci
  - npm install
 script:
- - npmtest
+ - npm test
  - npm run build
 
